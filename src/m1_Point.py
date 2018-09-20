@@ -61,7 +61,7 @@ class Point(object):
 
     def move_to(self, x, y):
         import math
-        self.distanc = self.distance + math.sqrt((self.x - self.start_x) ** 2 + (self.y - self.start_y) ** 2)
+        self.distance = self.distance + math.sqrt((self.x - self.start_x) ** 2 + (self.y - self.start_y) ** 2)
         self.x = x
         self.y = y
         self.count = self.count + 1
